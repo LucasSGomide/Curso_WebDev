@@ -9,7 +9,7 @@ A proposta do curso é desenvolver sites e sistemas web do zero utilizando HTML,
 #### Conteúdo: 
 
 <li><strong>1.0</strong> - HTML ✅</li> 
-<li><strong>2.0</strong> - CSS ❌</li> 
+<li><strong>2.0</strong> - CSS ✅</li> 
 <li><strong>3.0</strong> - CSS Intermediário ❌</li> 
 <li><strong>4.0</strong> - HTML5 ❌</li> 
 <li><strong>5.0</strong> - CSS3 ❌</li> 
