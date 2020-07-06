@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatacao de Textos</title>
+
+    <style type="text/css">
+      p{
+        font-size: 30;
+        font-family: Courier, monospace;
+      }
+
+      .texto{
+        font-size: 20px; /* px, %, em (faz com que os textos fiquem
+                          proporcionais aos elementos externos) */
+      }
+
+      .negrito{
+        font-weight: 900; /* Varua de 100 - 900 */
+      }
+
+      .estilo{
+        font-style: italic;
+      }
+
+      .texto_padrao{
+        font: bold 40px "monospace";
+      }
+
+      .formatacao{
+        /*text-decoration: underline;*/
+        /*text-decoration: overline;*/
+        text-decoration: line-through;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+      <p class="texto">
+        Texto qualquer neste paragrafo. <span class="formatacao">Por isso vou escrever 
+        palavras</span> aleatórias,
+        desta forma eu coloco muita coisa que não faz sentido e aí vamos fazer várias
+        formatalçoes diferentes que poderão diferenciar a minha página HTML, fazendo
+        a implantação do CSS e aprendendo cada dia um pouquinho mais !
+      </p>
+      <p class="negrito">Conteúdo 1</p>
+      <p class="estilo">Conteúdo 2</p>
+      <p>Conteúdo 3</p>
+      <p class="texto_padrao">Conteúdo 4</p>
+  </body>
+
+</html>
