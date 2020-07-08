@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+
+    <style>
+      body {
+        background: rgb(35, 192, 114);
+      }
+
+      .main-content {
+
+        background: white;
+        padding: 10px;
+        width: 600px;
+        height: 2500px;
+        margin: 30px auto;
+        /*position: relative;*/
+      }
+
+      .box {
+        
+        background: green;
+        width: 100px;
+        height: 100px;
+        color: white;
+      }
+
+      #relative {
+        position: relative;
+        left: -30px;
+        top: 5px;
+        width: 660px;
+      }
+
+      /* Funciona baseado no posicionamento do maior na hierarquia, se o body é relative ele ficará nos eixos 0 posicionado nos limites do body. Fica travado na tela, ótimo recurso para colocar minha foto central no portfólio*/
+
+      #absolute {
+        position: absolute;
+        bottom: 0px;
+        right: 30px;
+      }
+
+      /* Fica posicionado fixamente dentro da viewport ou tela por completo, desta forma quando vc rola a página o elemento continuará fixo em sua posição, útil para usar em pictograma de whatsapp por ex. */
+
+      #fixed {
+        position: fixed;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    
+    <div class="main-content">
+      
+      <h1>Posicionamento</h1>
+      <h4>Relative</h4>
+      <div id="relative" class="box">Relative</div>
+
+      <h4>Absolute</h4>
+      <div id="absolute" class="box">Absolute</div>
+
+      <h4>Fixed</h4>
+      <div id="fixed" class="box">Fixed</div>
+    </div>
+
+  </body>
+  
+</html>
