@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Links não visitados */
+a:link {
+  color: rgb(135 , 245 , 24);
+}
+
+/* Links Visitados */
+a:visited {
+  color:  rgb(135 , 245 , 24);
+}
+
+/* Links hover - passando por cima*/
+
+a:hover {
+  color:  rgb(163, 0, 0);
+  background: coral;
+}
+
+/* Links ativos / quando clicados */
+
+a:active {
+  color:  rgb(135 , 245 , 24);
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: brown;
+}
